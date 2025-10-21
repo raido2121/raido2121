@@ -1,7 +1,8 @@
 body{
   background-color: #00008B; /* warna biru tua/navy */
   font-family: Arial, sans-serif; /* jenis huruf yang bersih dan mudah dibaca */
-  color: #FFFFFF; /* warna teks utama (Biru Gelap) */
+  color: #FFFFFF; /* warna teks utama (Biru tua) */
+   text-align: center;
 }
 
 .kartu profil {
@@ -11,11 +12,14 @@ body{
   backgraound-color: white;
   border-radius: 15px; /* membuat sudut menjaadi melengkung */
   box-shadow: 0 4px 8px rgba(0,0,0,0,1); /* Efek bayangan */
-  text-align: center;
 }
 
 .kartu-profil img {
-  width: 150px; /* tambahkan titik koma */
-  border-radius: 50%;
+  width: 150px; 
+  height:150px;
+  border-radius: 50%; /* jadi bulat! */
+  object-fit: cover;
+  border: 4px solid #0078d7
+  margin-bottom: 15px
 }
  
